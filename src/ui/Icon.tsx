@@ -3,7 +3,7 @@ import sprite from '../assets/icons/icon.svg';
 
 interface IconProps extends SVGProps<SVGSVGElement> {
   id: string;
-  anyProp?: any;
+  anyProp?: string;
 }
 
 const Icon: FC<IconProps> = ({ id, ...props }) => {
