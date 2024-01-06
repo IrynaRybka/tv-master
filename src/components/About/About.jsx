@@ -1,12 +1,17 @@
 // import React, { useState } from "react";
 // import ContainerAbout from './About.styled.js'
 
+import { useRef } from "react";
+import Headline from "../../ui/Headline/Headline";
+
 const About = () => {
   // const [isLoading, setIsLoading] = useState(true);
+  const ref = useRef(null);
+
   return (
     <>
       <section>
-        <h2>ПРО МАЙСТРА</h2>
+        <Headline ref={ref} text={"Про майстра"}/>
         <p>
           Мене звати Володимир і я професійний майстер телевізорів. У мене
           великий досвід роботи в цій галузі, понад 15 років. Починав свою
