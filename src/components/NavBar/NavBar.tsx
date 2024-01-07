@@ -1,14 +1,16 @@
 // import { useRef } from "react";
 import Icon from "../../ui/Icon";
 
-const NavBar = (ref) => {
+const NavBar = () => {
     // const [isLoading, setIsLoading] = useState(true);
-// const ref = useRef(null);
+// const about = useRef(null);
 
-const handleClick = () => {
-  console.log(ref)
-    ref.current?.scrollIntoView({behavior: 'smooth'});
-}
+// const scrollToSection = (elementRef) => {
+// window.scrollTo({
+//   top: elementRef.current.offsetTop,
+//   behavior: "smooth"
+// })
+// }
   
     return (
       
@@ -30,7 +32,7 @@ const handleClick = () => {
                 <a href="../Appointment/Appointment.tsx">Контакти</a>
               </li>
               <li>
-                <button onClick={handleClick} type="button">Про майстра</button>
+                {/* <button onClick={() => scrollToSection(about)} type="button">Про майстра</button> */}
                 <a href="../About/About.tsx">Про майстра</a>
               </li>
              
