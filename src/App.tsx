@@ -1,4 +1,5 @@
 import { useRef, RefObject } from "react";
+
 import About from "./components/About/About";
 import Advantages from "./components/Advantages/Advantages";
 import Appointment from "./components/Appointment/Appointment";
@@ -21,11 +22,12 @@ function App() {
 
   return (
     <>
-    <button  type="button" onClick={() => scrollToSection(servicesRef)}>Go to section</button>
-      <Header ></Header>
+    
+    <button type="button" onClick={() => scrollToSection(servicesRef)}>Go to section</button>
+      <Header></Header>
       <Hero></Hero>
-      <Services ></Services>
-      <p ref={servicesRef}> This services</p>
+      <Services></Services>
+      <p ref={servicesRef} > This services</p>
       <Appointment></Appointment>
       <Advantages></Advantages>
       <About></About>

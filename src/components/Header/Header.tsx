@@ -1,7 +1,7 @@
 // import React, { useState } from "react";
 
 import Social from "../../ui/Social/Social";
-import NavBar from "../NavBar/NavBar";
+// import NavBar from "../NavBar/NavBar";
 
 const Header = () => {
   // const [isLoading, setIsLoading] = useState(true);
@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header>
       <div>
-        <NavBar />
+        {/* <NavBar /> */}
         <a href="tel:0637967425">063 796 74 25</a>
         <Social />
       </div>

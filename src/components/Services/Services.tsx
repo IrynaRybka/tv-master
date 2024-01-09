@@ -3,11 +3,11 @@
 
 const Services = () => {
     // const [isLoading, setIsLoading] = useState(true);
-   
+ 
   
     return (
       <section>
-        <div>
+        <div >
         <h2>ПОСЛУГИ</h2>
         </div>
       </section>
