@@ -1,4 +1,4 @@
-import { useRef, RefObject } from "react";
+// import { useRef, RefObject } from "react";
 
 import About from "./components/About/About";
 import Advantages from "./components/Advantages/Advantages";
@@ -9,25 +9,25 @@ import Hero from "./components/Hero/Hero";
 import Services from "./components/Services/Services";
 
 function App() {
-  const servicesRef = useRef<null | HTMLParagraphElement>(null);
+  // const servicesRef = useRef<null | HTMLParagraphElement>(null);
 
-  const scrollToSection = (elementRef: RefObject<HTMLParagraphElement>) => { 
-    if (elementRef != null) {
-    window.scrollTo({
-      top: elementRef.current.offsetTop,
-      behavior: "smooth",
-    })}
-    return
-    }
+  // const scrollToSection = (elementRef: RefObject<HTMLParagraphElement>) => { 
+  //   if (elementRef != null) {
+  //   window.scrollTo({
+  //     top: elementRef.current.offsetTop,
+  //     behavior: "smooth",
+  //   })}
+  //   return
+  //   }
 
   return (
     <>
     
-    <button type="button" onClick={() => scrollToSection(servicesRef)}>Go to section</button>
+    {/* <button type="button" onClick={() => scrollToSection(servicesRef)}>Go to section</button> */}
       <Header></Header>
       <Hero></Hero>
       <Services></Services>
-      <p ref={servicesRef} > This services</p>
+      {/* <p ref={servicesRef} > This services</p> */}
       <Appointment></Appointment>
       <Advantages></Advantages>
       <About></About>

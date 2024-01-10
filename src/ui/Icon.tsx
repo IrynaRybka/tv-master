@@ -1,5 +1,5 @@
 import { FC, SVGProps } from 'react';
-import sprite from '../assets/icons/icon.svg';
+import sprite from '../icons/icon.svg';
 
 interface IconProps extends SVGProps<SVGSVGElement> {
   id: string;

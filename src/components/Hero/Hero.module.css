@@ -1,0 +1,9 @@
+.hero {
+    height: 684px;
+    padding-top: 160px;
+    width: 1440px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.84)), url(../../images/background-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

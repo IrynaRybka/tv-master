@@ -1,5 +1,7 @@
 import Icon from "../Icon.js";
 
+import styles from "./Social.module.css";
+
 // import {SocialUl} from "./Social.styled.js"
 
 const Social = () => {
@@ -7,20 +9,20 @@ const Social = () => {
 
   return (
     <div>
-      <ul>
+      <ul className={styles.social_list}>
         <li>
           <a>
-            <Icon id="icon-telegram" width={55}/>
+            <Icon className={styles.social_list_icon} id="icon-telegram" width={55}/>
           </a>
         </li>
         <li>
           <a>
-            <Icon id="icon-viber" width={55}/>
+            <Icon className={styles.social_list_icon} id="icon-viber" width={55}/>
           </a>
         </li>
         <li>
           <a>
-            <Icon id="icon-whatsapp" width={55}/>
+            <Icon className={styles.social_list_icon} id="icon-whatsapp" width={55}/>
           </a>
         </li>
       </ul>
