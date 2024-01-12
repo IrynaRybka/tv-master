@@ -1,4 +1,11 @@
 .nav_list {
     display: flex;
+    align-items: center;
     gap: 40px;
+}
+.nav_list:first-child {
+    margin-right: 120px;
+}
+.nav_list_element:first-child {
+    margin-right: 80px;
 }

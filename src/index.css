@@ -1,23 +1,23 @@
 :root {
-  font-family: Inter, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
+/* colors */
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+ --text-color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 }
 
 body {
+  font-family: Inter, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  color: var(--text-color);
 }
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
 }

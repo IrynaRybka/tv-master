@@ -16,32 +16,30 @@ const NavBar = () => {
   // }
 
   return (
-      <nav>
-        <ul className={styles.nav_list}>
-          <li>
-            <a href="./Header.tsx">
-              <Icon id="icon-logo" width={173} height={65} />
-            </a>
-          </li>
-          <li>
-            <a href="#"
-            >
-              Послуги
-            </a>
-          </li>
-          <li>
-            <a href="../Advantages/Advantages.tsx">Переваги</a>
-          </li>
-          <li>
-            <a href="../Appointment/Appointment.tsx">Контакти</a>
-          </li>
-          <li>
-             {/* <button onClick={() => scrollToSection(about)} type="button">Про майстра</button> */}
-            <a href="../About/About.tsx">Про майстра</a>
-          </li>
-        </ul>
-      </nav>
-  
+    <nav>
+      <ul className={styles.nav_list}>
+        <li className={styles.nav_list_element}>
+          <a href="./Header.tsx">
+            <Icon id="icon-logo" width={173} height={65} />
+          </a>
+        </li>
+        <li className={styles.nav_list_element}>
+          <a href="#">Послуги</a>
+        </li>
+        <li className={styles.nav_list_element}>
+          <a href="../Advantages/Advantages.tsx">Переваги</a>
+        </li>
+        <li className={styles.nav_list_element}>
+          <a href="../Appointment/Appointment.tsx">Контакти</a>
+        </li>
+        <li className={styles.nav_list_element}>
+          <a href="../About/About.tsx">Про майстра</a>
+        </li>
+        <li className={styles.nav_list_element}>
+          <a href="tel:0637967425">063 796 74 25</a>
+        </li>
+      </ul>
+    </nav>
   );
 };
 export default NavBar;

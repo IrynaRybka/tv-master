@@ -12,7 +12,6 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.header_container}>
         <NavBar />
-        <a href="tel:0637967425">063 796 74 25</a>
         <Social />
       </div>
     </header>

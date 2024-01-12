@@ -1,21 +1,24 @@
 .hero {
-    height: 684px;
-    padding-top: 160px;
-    width: 1440px;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.84),
-        rgba(0, 0, 0, 0.84)
-      ), url(../../images/background-hero.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  height: 684px;
+  padding-top: 160px;
+  width: 1440px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.84),
+      rgba(0, 0, 0, 0.84)
+    ),
+    url(../../images/background-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .hero_title {
-    color: #FFF;
-
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero_text {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
 }
