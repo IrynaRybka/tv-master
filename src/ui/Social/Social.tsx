@@ -11,6 +11,7 @@ const Social = () => {
     <div>
       <ul className={styles.social_list}>
         <li>
+          {/* change href link */}
           <a href="https://t.me/IrynaIT" target="_blank" rel="noopener noreferrer">
             <Icon className={styles.social_list_icon} id="icon-telegram" width={55} height={55}/>
           </a>
