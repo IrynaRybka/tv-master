@@ -1,6 +1,6 @@
 .hero {
-  height: 480px;
-  padding-top: 140px;
+  height: 500px;
+  padding-top: 180px;
 
   background-image: linear-gradient(
       to bottom,
@@ -11,6 +11,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
+
 }
 .hero_container {
   margin-right: 40px;
@@ -29,11 +30,11 @@
   font-weight: 500;
   line-height: normal;
   max-width: 1040px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   
 }
 .hero_telefon_link {
   font-size: 24px;
   display:block;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }

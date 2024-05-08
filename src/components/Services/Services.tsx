@@ -1,13 +1,13 @@
 // import React, { useState } from "react";
-
+import styles from './Services.module.css'
 import ServicesItem from "./ServicesItem";
 
 const Services = () => {
   // const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <section id='services'>
-      <div>
+    <section id='services' className={styles.services}>
+      <div className={styles.services_container}>
         <h2>ПОСЛУГИ</h2>
         <p>
           Надаю послуги з ремонту телевізорів та встановленння Т2. Працюю з
