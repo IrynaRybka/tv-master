@@ -6,7 +6,7 @@ const Services = () => {
   // const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <section>
+    <section id='services'>
       <div>
         <h2>ПОСЛУГИ</h2>
         <p>

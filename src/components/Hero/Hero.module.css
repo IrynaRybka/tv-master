@@ -1,7 +1,7 @@
 .hero {
-  height: 684px;
-  padding-top: 160px;
-  width: 1440px;
+  height: 480px;
+  padding-top: 140px;
+
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.84),
@@ -10,15 +10,30 @@
     url(../../images/background-hero.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
+}
+.hero_container {
+  margin-right: 40px;
+  margin-left: 40px;
 }
 .hero_title {
   font-size: 36px;
   font-weight: 700;
   line-height: normal;
+  max-width: 1040px;
+  margin-bottom: 40px;
+  
 }
 .hero_text {
   font-size: 24px;
   font-weight: 500;
   line-height: normal;
+  max-width: 1040px;
+  margin-bottom: 40px;
+  
+}
+.hero_telefon_link {
+  font-size: 24px;
+  display:block;
+  margin-bottom: 40px;
 }

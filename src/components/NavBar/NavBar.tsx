@@ -4,16 +4,8 @@ import Icon from "../../ui/Icon";
 
 import styles from "./NavBar.module.css";
 
-const NavBar = () => {
-  // const [isLoading, setIsLoading] = useState(true);
-  // const about = useRef(null);
+const NavBar = ({hendlerScrollToSection}) => {
 
-  // const scrollToSection = (elementRef) => {
-  // window.scrollTo({
-  //   top: elementRef.current.offsetTop,
-  //   behavior: "smooth"
-  // })
-  // }
 
   return (
     <nav>
@@ -24,16 +16,16 @@ const NavBar = () => {
           </a>
         </li>
         <li className={styles.nav_list_element}>
-          <a href="#">Послуги</a>
+          <a href="#services" onClick={hendlerScrollToSection}>Послуги</a>
         </li>
         <li className={styles.nav_list_element}>
-          <a href="../Advantages/Advantages.tsx">Переваги</a>
+          <a href="#advantages" onClick={hendlerScrollToSection}>Переваги</a>
         </li>
         <li className={styles.nav_list_element}>
-          <a href="../Appointment/Appointment.tsx">Контакти</a>
+          <a href="#appointment" onClick={hendlerScrollToSection}>Контакти</a>
         </li>
         <li className={styles.nav_list_element}>
-          <a href="../About/About.tsx">Про майстра</a>
+          <a href="#about" onClick={hendlerScrollToSection}>Про майстра</a>
         </li>
         <li className={styles.nav_list_element}>
           <a href="tel:0637967425">063 796 74 25</a>

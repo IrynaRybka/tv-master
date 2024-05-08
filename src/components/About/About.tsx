@@ -10,7 +10,7 @@ const About = () => {
 
   return (
     <>
-      <section>
+    <section id='about'>
         {/* <Headline ref={ref} text={"Про майстра"}/> */}
         <h2>Про майстра</h2>
         <p>

@@ -6,7 +6,7 @@ const Advantages = () => {
    
   
     return (
-      <section>
+      <section id="advantages">
         <div>
         <h2>ПЕРЕВАГИ</h2>
         <div>

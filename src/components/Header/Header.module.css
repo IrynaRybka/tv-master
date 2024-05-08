@@ -1,15 +1,11 @@
 .header {
-    height: 100px;
-    min-width: 1200px;
-    max-width: 1440px;
-    background-color:  rgba(217, 218, 223, 0.26);
+  width: 100%;
+    background-color:  rgba(217, 218, 223, 0.4);
     position:fixed;
 }
 .header_container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 17px;
+    margin: 17px 40px; 
+    justify-content: center
 }
