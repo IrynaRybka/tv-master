@@ -7,3 +7,12 @@
     margin-right: 40px;
     margin-left: 40px;
 }
+.services_tegline {
+    text-transform: uppercase;
+    font-weight: 900;
+   
+}
+.services_desc {
+    text-align: center;
+    
+}
