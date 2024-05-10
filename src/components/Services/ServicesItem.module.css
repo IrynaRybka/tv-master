@@ -1,0 +1,20 @@
+.container {
+    padding: 15px 20px;
+    display:flexbox;
+    text-align: center;
+   
+}
+
+.icon {
+stroke: orangered;
+}
+.header {
+color: black;
+text-transform:uppercase;
+font-weight: 800;
+}
+.desc {
+    color: black;
+    font-size: 24px;
+    max-width: 600px;
+}

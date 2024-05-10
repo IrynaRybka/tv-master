@@ -3,8 +3,8 @@ import styles from './Services.module.css';
 import ServicesItem from './ServicesItem';
 import Modal from '../Modal/Modal';
 
-const Services = () => {
-  const [isOpenModal, setIsOpenModal] = useState(false);
+const Services: React.FC = () => {
+  const [isOpenModal, setIsOpenModal] = useState<boolean>(false);
   const [selectItem, setSelectItem] = useState({});
 
   const handleOpenModal = item => {
@@ -32,22 +32,19 @@ const Services = () => {
         </p>
       </div>
       {isOpenModal && (
-            <Modal root="modal-root" onClose={closeModal} isOpen={isOpenModal}>
-              <ServicesItem />
-            </Modal>
-          )}
-      <ul>
-        <li onClick={handleOpenModal} style={{cursor: 'pointer'}}>
-          Ремонт телевізорів
-         
+        <Modal root='modal-root' onClose={closeModal}>
+          <ServicesItem selectItem={selectItem} />
+        </Modal>
+      )}
+      <ul className={styles.list}>
+        <li onClick={handleOpenModal} className={styles.list_item}>
+          <h3>Ремонт телевізорів</h3>
         </li>
-        <li onClick={handleOpenModal}>
-        Встановлення телевізійного обладнання
-          <ServicesItem />
+        <li onClick={handleOpenModal} className={styles.list_item}>
+          <h3>Встановлення телевізійного обладнання</h3>
         </li>
-        <li onClick={handleOpenModal}>
-        Встановлення Т2
-          <ServicesItem />
+        <li onClick={handleOpenModal} className={styles.list_item}>
+          <h3>Встановлення Т2</h3>
         </li>
       </ul>
     </section>

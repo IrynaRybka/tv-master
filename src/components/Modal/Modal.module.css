@@ -24,9 +24,21 @@
 .modal_box_btn {
   position: absolute;
   z-index: 100;
-  top: 24px;
-  right: 0;
+  top: 18px;
+  right: 34px;
 
   width: 24px;
   height: 24px;
 }
+
+.icon {
+  fill: black;
+  transform:  rotate(-90deg);
+  transition: ease-out .3s all;
+}
+
+.icon:hover, .icon:focus {
+  fill: red;
+  transform:  rotate(90deg);
+}
+
