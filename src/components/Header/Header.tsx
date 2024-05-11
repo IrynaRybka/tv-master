@@ -5,10 +5,10 @@ import NavBar from "../NavBar/NavBar";
 
 import styles from "./Header.module.css"
 
-const Header = () => {
-  const hendlerScrollToSection = (e) => {
+const Header: React.FC = () => {
+  const hendlerScrollToSection = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
-    const targetId = e.currentTarget.getAttribute('href').substring(1);
+    const targetId = e.currentTarget.getAttribute('href')?.substring(1) || '';
     const target = document.getElementById(targetId);
     if(target) {
       const targetPosition =
@@ -24,7 +24,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.header_container}>
-        <NavBar hendlerScrollToSection={hendlerScrollToSection}/>
+        <NavBar hendlerScrollToSection={ hendlerScrollToSection}/>
         <Social />
       </div>
     </header>

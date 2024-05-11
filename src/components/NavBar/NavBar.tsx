@@ -1,10 +1,13 @@
-// import { useRef } from "react";
-// import { Link } from "react-scroll";
+
 import Icon from "../../ui/Icon";
 
 import styles from "./NavBar.module.css";
 
-const NavBar = ({hendlerScrollToSection}) => {
+interface NavBarProps {
+  hendlerScrollToSection: (sectionId: string) => void;
+}
+
+const NavBar: React.FC<NavBarProps> = ({hendlerScrollToSection}) => {
 
 
   return (

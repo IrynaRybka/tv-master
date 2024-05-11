@@ -7,9 +7,9 @@ const Services: React.FC = () => {
   const [isOpenModal, setIsOpenModal] = useState<boolean>(false);
   const [selectItem, setSelectItem] = useState({});
 
-  const handleOpenModal = item => {
-    setIsOpenModal(prev => true);
-    setSelectItem(prev => item);
+  const handleOpenModal = (item: React.MouseEvent<HTMLAnchorElement, MouseEvent> )=> {
+    setIsOpenModal(true);
+    setSelectItem(item);
     document.body.style.overflow = 'hidden';
     console.log('modal is open');
   };

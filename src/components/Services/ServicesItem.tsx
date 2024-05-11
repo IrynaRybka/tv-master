@@ -1,9 +1,14 @@
 import Icon from '../../ui/Icon';
 import styles from './ServicesItem.module.css'
 
-const ServicesItem = ({ selectItem }) => {
-  // const [isLoading, setIsLoading] = useState(true);
+interface SelectItem {
+ selectItem: object
+  
+}
 
+const ServicesItem: React.FC<SelectItem> = ({ selectItem }) => {
+  // const [isLoading, setIsLoading] = useState(true);
+console.log(selectItem)
   return (
     <div className={styles.container}>
       
