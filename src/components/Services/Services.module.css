@@ -11,7 +11,7 @@
 .services_tegline {
     text-transform: uppercase;
     font-weight: 900;
-   
+   font-size: 36px;
 }
 .services_desc {
     text-align: center;
@@ -28,4 +28,8 @@ gap: 60px;
 .list_item {
 text-transform: uppercase;
 cursor: pointer;
+}
+.list_item:active, .list_item:focus, .list_item:hover {
+    color: #E96E6E;
+    text-decoration:underline;
 }

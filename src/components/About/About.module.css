@@ -1,0 +1,24 @@
+.about {
+    font-size: 24px;
+    color: black;
+    background-color: white;
+}
+.about_container {
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about_tegline{
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.about_desc {
+    margin-bottom: 20px;
+    text-indent: 40px;
+}
+.about_list {
+    text-indent: 40px;
+
+}
