@@ -23,13 +23,12 @@ function App() {
   return (
     <>
     
-    {/* <button type="button" onClick={() => scrollToSection(servicesRef)}>Go to section</button> */}
+   
       <Header></Header>
       <Hero></Hero>
       <Services></Services>
-      {/* <p ref={servicesRef} > This services</p> */}
-      <Appointment></Appointment>
       <Advantages></Advantages>
+      <Appointment></Appointment>
       <About></About>
       <Footer></Footer>
     </>

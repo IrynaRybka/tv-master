@@ -4,7 +4,7 @@ import Icon from "../../ui/Icon";
 import styles from "./NavBar.module.css";
 
 interface NavBarProps {
-  hendlerScrollToSection: (sectionId: string) => void;
+  hendlerScrollToSection: (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => void;
 }
 
 const NavBar: React.FC<NavBarProps> = ({hendlerScrollToSection}) => {

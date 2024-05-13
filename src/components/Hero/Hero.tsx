@@ -8,7 +8,7 @@ const Hero = () => {
     <section className={styles.hero}>
       <div className={styles.hero_container}>
         <h1 className={styles.hero_title}>
-          Ваш телевізор не працює? Не біда! Телемастер з досвідом понад 15 років
+          Ваш телевізор не працює? Не біда! Телемайстер з досвідом понад 15 років
           швидко та якісно відремонтує ваш телевізор у вас на дому.
         </h1>
         <p className={styles.hero_text}>
@@ -17,6 +17,8 @@ const Hero = () => {
         </p>
 
         <a className={styles.hero_telefon_link} href="tel:+380637967425">(063) 796-74-25</a>
+
+        <p>Написати в месенджер:</p>
 
         <Social />
       </div>

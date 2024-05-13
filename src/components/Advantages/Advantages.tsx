@@ -8,20 +8,20 @@ const Advantages = () => {
     return (
       <section id="advantages" className={styles.advantages}>
         <div className={styles.advantages_container}>
-        <h2>ПЕРЕВАГИ</h2>
+        <h2 className={styles.advantages_tegline}>ПЕРЕВАГИ</h2>
         <div>
-          <ul>
-          <li>
-            <p>Професійність</p>
+          <ul className={styles.advantages_list}>
+          <li className={styles.advantages_item}>
+            <h3>Професійність</h3>
           </li>
-          <li>
-          <p>Пунктуальність</p>
+          <li className={styles.advantages_item}>
+          <h3>Пунктуальність</h3>
           </li>
-          <li>
-          <p>Відповідальність</p>
+          <li className={styles.advantages_item}>
+          <h3>Відповідальність</h3>
           </li>
-          <li>
-          <p>Чесність</p>
+          <li className={styles.advantages_item}>
+          <h3>Чесність</h3>
           </li>
           </ul>
         </div>
