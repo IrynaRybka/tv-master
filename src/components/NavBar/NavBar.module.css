@@ -9,3 +9,11 @@
 .nav_list_element:first-child {
     margin-right: 100px;
 }
+.nav_list_element:focus, .nav_list_element:hover {
+border-bottom: solid 3px rgba(244, 123, 123) ;
+
+}
+.active {
+    color: rgba(244, 123, 123);
+    text-decoration: underline;
+}
