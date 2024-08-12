@@ -1,10 +1,11 @@
 // import React, { useState } from "react";
+import styles from './appointent.module.css'
 
 const Appointment = () => {
   // const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <section id='appointment'>
+    <section id='appointment' className={styles.container}>
       <div>
         <h2>ПРАЦЮЮ БЕЗ ВИХІДНИХ</h2>
         <p>Можете телефонувати в будь-який день з 9:00 до 19:00</p>

@@ -18,7 +18,7 @@ const Social = () => {
         </li>
         <li>
        {/* тільки якщо встановлено додаток viber */}
-          <a href="viber://chat?number=%2B380637967425" target="_blank" rel="noopener noreferrer">
+          <a className={styles.link_viber} href="viber://chat?number=%2B380637967425" target="_blank" rel="noopener noreferrer">
             <Icon className={styles.social_list_icon} id="icon-viber" width={55} height={55}/>
           </a>
         </li>

@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
       <div className={styles.callback}>
         <h3>ЗАЛИШИТИ ВІДГУК</h3>
-        <form>
+        <form className={styles.form}>
           <label htmlFor='name'>ФІО</label>
           <input name='name' type='text' id='name' required></input>
           <label htmlFor='email'>E-mail</label>
