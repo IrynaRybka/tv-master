@@ -25,7 +25,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/tv-master-page' element={<Header />}>
+          <Route path='/' element={<Header />}>
             <Route index element={<Hero />} />
             <Route path='services' element={<Services />} />
             <Route path='advantages' element={<Advantages />} />
