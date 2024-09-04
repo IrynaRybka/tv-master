@@ -6,6 +6,7 @@ import NavBar from "../NavBar/NavBar";
 import styles from "./Header.module.css"
 
 const Header: React.FC = () => {
+  
   const hendlerScrollToSection = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     const targetId = e.currentTarget.getAttribute('href')?.substring(1) || '';

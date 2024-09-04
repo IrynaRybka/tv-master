@@ -1,6 +1,6 @@
-import Icon from "../Icon.js";
+import Icon from '../Icon.js';
 
-import styles from "./Social.module.css";
+import styles from './Social.module.css';
 
 // import {SocialUl} from "./Social.styled.js"
 
@@ -12,19 +12,46 @@ const Social = () => {
       <ul className={styles.social_list}>
         <li>
           {/* change href link */}
-          <a href="https://t.me/IrynaIT" target="_blank" rel="noopener noreferrer">
-            <Icon className={styles.social_list_icon} id="icon-telegram" width={55} height={55}/>
+          <a
+            href='https://t.me/IrynaIT'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Icon
+              className={styles.social_list_icon}
+              id='icon-telegram'
+              width={55}
+              height={55}
+            />
           </a>
         </li>
         <li>
-       {/* тільки якщо встановлено додаток viber */}
-          <a className={styles.link_viber} href="viber://chat?number=%2B380637967425" target="_blank" rel="noopener noreferrer">
-            <Icon className={styles.social_list_icon} id="icon-viber" width={55} height={55}/>
+          <a
+            className={styles.link_viber}
+            href='viber://chat?number=%2B380637967425'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Icon
+              className={styles.social_list_icon}
+              id='icon-viber'
+              width={55}
+              height={55}
+            />
           </a>
         </li>
         <li>
-          <a href="https://wa.me/380637967425" target="_blank" rel="noopener noreferrer">
-            <Icon className={styles.social_list_icon} id="icon-whatsapp" width={55} height={55}/>
+          <a
+            href='https://wa.me/380637967425'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Icon
+              className={styles.social_list_icon}
+              id='icon-whatsapp'
+              width={55}
+              height={55}
+            />
           </a>
         </li>
       </ul>
