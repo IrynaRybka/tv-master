@@ -1,5 +1,5 @@
 // import { useState } from "react";
-import { NavLink, Outlet } from 'react-router-dom';
+
 import Icon from '../../ui/Icon';
 
 import styles from './NavBar.module.css';
@@ -24,44 +24,43 @@ const NavBar: React.FC<NavBarProps> = ({ hendlerScrollToSection }) => {
   // const link = <a className={styles.active} href={href}>{children}</a>
 
   return (
-    <>
+   
     <nav>
       <ul className={styles.nav_list}>
         <li className={styles.nav_list_element}>
-          <NavLink to='/'>
+          <a href='/'>
             <Icon id='icon-logo' width={173} height={65} />
-          </NavLink>
+          </a>
         </li>
         <li className={styles.nav_list_element}>
-          <NavLink
-            to='/services'
+          <a
+            href='#services'
             onClick={hendlerScrollToSection}
           >
             Послуги
-          </NavLink>
+          </a>
         </li>
         <li className={styles.nav_list_element}>
-          <NavLink to='/advantages' onClick={hendlerScrollToSection}>
+          <a href='#advantages' onClick={hendlerScrollToSection}>
             Переваги
-          </NavLink>
+          </a>
         </li>
         <li className={styles.nav_list_element}>
-          <NavLink to='/appointment' onClick={hendlerScrollToSection}>
+          <a href='#appointment' onClick={hendlerScrollToSection}>
             Контакти
-          </NavLink>
+          </a>
         </li>
         <li className={styles.nav_list_element}>
-          <NavLink to='/about' onClick={hendlerScrollToSection}>
+          <a href='#about' onClick={hendlerScrollToSection}>
             Про майстра
-          </NavLink>
+          </a>
         </li>
         <li className={styles.nav_list_element}>
           <a href='tel:0637967425'>063 796 74 25</a>
         </li>
       </ul>
     </nav>
-    <Outlet />
-    </>
+  
   );
 };
 export default NavBar;
