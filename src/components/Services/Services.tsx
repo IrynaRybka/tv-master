@@ -7,12 +7,12 @@ const Services: React.FC = () => {
   const [isOpenModal, setIsOpenModal] = useState<boolean>(false);
   const [selectItem, setSelectItem] = useState({});
 
-  const handleOpenModal = (item: React.MouseEvent<HTMLAnchorElement, MouseEvent> )=> {
-    setIsOpenModal(true);
-    setSelectItem(item);
-    document.body.style.overflow = 'hidden';
-    console.log('modal is open');
-  };
+  // const handleOpenModal = (item: React.MouseEvent<HTMLAnchorElement, MouseEvent> )=> {
+  //   setIsOpenModal(true);
+  //   setSelectItem(item);
+  //   document.body.style.overflow = 'hidden';
+  //   console.log('modal is open');
+  // };
 
   const closeModal = () => {
     setIsOpenModal(false);
@@ -36,17 +36,17 @@ const Services: React.FC = () => {
           <ServicesItem selectItem={selectItem} />
         </Modal>
       )}
-      <ul className={styles.list}>
+      {/* <ul className={styles.list}>
         <li onClick={handleOpenModal} className={styles.list_item}>
-          <h3>Ремонт телевізорів</h3>
+          <button type='button'>Ремонт телевізорів</button>
         </li>
         <li onClick={handleOpenModal} className={styles.list_item}>
-          <h3>Встановлення телевізійного обладнання</h3>
+          <button type='button'>Встановлення телевізійного обладнання</button>
         </li>
         <li onClick={handleOpenModal} className={styles.list_item}>
-          <h3>Встановлення Т2</h3>
+          <button type='button'>Встановлення Т2</button>
         </li>
-      </ul>
+      </ul> */}
     </section>
   );
 };
